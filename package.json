@@ -1,0 +1,24 @@
+{
+  "name": "wall-art-relief-preview-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private Shopify App Proxy scaffold: one 1K custom relief preview per request.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "file-type": "^21.0.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.3"
+  }
+}
